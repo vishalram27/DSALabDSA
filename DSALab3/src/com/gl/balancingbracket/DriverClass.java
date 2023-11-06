@@ -9,6 +9,7 @@ public class DriverClass {
 		BalancedBrackets bb = new BalancedBrackets();
 
 		Scanner myObj = new Scanner(System.in);
+		System.out.println("Enter the String to check their Balancing Brackets :");
 		String expr = myObj.nextLine();
 		myObj.close();
 
